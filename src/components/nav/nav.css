@@ -9,7 +9,7 @@ nav {
     padding: 12px 0;
     display: grid;
     grid-template-columns: 2fr 1fr;
- 
+    background: grey;
   }
   
   
