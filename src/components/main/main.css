@@ -22,7 +22,7 @@
     width: 90%;
     border-radius: 10px;
 }
-
+/*Estilização dos Icones*/
 .service-icon {
     font-size: 30px;
     padding: 30px 0px 30px 90px;
@@ -32,3 +32,14 @@
     filter: grayscale(0%);
     border-bottom: 2px solid blue;
 }
+
+.service-title {
+    font-size: 3.0rem;
+    padding: 0;
+    margin:0;
+}
+
+.services p:last-of-type{
+    padding: 0px 90px 20px 90px; 
+    text-align: left;
+  }
