@@ -4,6 +4,7 @@ import About from './components/about/About'
 import Main from './components/main/Main'
 import Mission from './components/mission/Mission'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 export default class App extends Component {
  render(){
   return (
@@ -14,6 +15,7 @@ export default class App extends Component {
       <Main/>
       <Mission/>
       <Contact/>
+      <Footer/>
     </div>
    );
  }

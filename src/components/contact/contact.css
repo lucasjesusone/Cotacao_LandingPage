@@ -1,7 +1,16 @@
+#contact {
+  background-color: #dcdcdc;
+  border-top: 3px solid #000; 
+}
+
 section {
     width: 70%;
+    
     padding: 90px 0;
-    margin: 50px auto 18px auto;
+    
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: center;

@@ -2,7 +2,7 @@ header {
    height: 700px;
    background-position: center;
    position: relative;
-   background: #dcdcdc;
+   
 }
 
 .head {
@@ -15,7 +15,7 @@ header {
     padding-top: 12%;
     align-items: center;
     color: #000;
-    background-color: #dcdcdc;
+    
 }
 
 .head h1 {

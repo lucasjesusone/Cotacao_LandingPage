@@ -1,14 +1,14 @@
-#about-us {
-    background-color: #000;
-}
+/*#about-us {
+   Estilização do Fundo - background 
+}*/
 /*Estilização da section*/
 .intro {
     width: 70%;
     padding-top: 90px;
     padding-right: 0px;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-right: auto;
-    margin-bottom: 18px;
+    margin-bottom: 0px;
     margin-left: auto;
     display: grid;
     grid-template-columns: 2fr 3fr;

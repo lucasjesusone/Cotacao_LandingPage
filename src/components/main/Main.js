@@ -16,7 +16,9 @@ export default class Main extends Component {
             <div className='service-one'>
             <p className='service-icon'><FiCheck/></p>
             <p className='service-title'>Planejamento</p>
-            <p>LOREM IPSUS</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              
+            </p>
             </div>
             
              {/*SERVIÇO DOIS -- PLANEJAMENTO*/}

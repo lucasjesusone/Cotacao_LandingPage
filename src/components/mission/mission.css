@@ -1,8 +1,13 @@
+#mission {
+    background-color: grey;
+    border-top: 3px solid #111;
+}
+
 .section {
     width: 70%;
     padding-top: 70px;
     padding-right: 0px;
-    margin: 50px auto 18px auto;
+    margin: 0px auto 0px auto;
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: center;
