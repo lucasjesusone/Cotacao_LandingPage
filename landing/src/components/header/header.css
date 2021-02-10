@@ -1,0 +1,46 @@
+header {
+   height: 700px;
+   background-position: center;
+   position: relative;
+    
+}
+
+.head {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    padding-top: 12%;
+    align-items: center;
+    color: #000;
+}
+
+.head h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 0px;
+    margin: 0;
+    letter-spacing: 2px;
+    border-right: 2px solid #111;
+}
+
+.head p {
+    padding-left: 30px;
+}
+
+.contact {
+    background-color: blue;
+    display: block;
+    color: cornsilk;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
