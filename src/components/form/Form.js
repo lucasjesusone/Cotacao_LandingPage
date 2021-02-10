@@ -90,12 +90,12 @@ export default class Form extends Component {
             {/* I am just sending a basic error message */}
                 {this.state.formError && 
                 <p className='error'>
-                    Preencha todos os campos
+                    Fill all the fields
                 </p>
                 }
-                <p>Preencha o seguinte formulário para entrar em contato conosco</p>
+                <p>Fill the following form to get contact with us.</p>
                 <div>
-                    <label htmlFor='name'>Nome</label>
+                    <label htmlFor='name'>Name</label>
                     <input type='text' name='name' placeholder='Seu nome' onChange={this.getName}/>
                 </div>
                 <div>
@@ -104,11 +104,11 @@ export default class Form extends Component {
                 </div>
                 <div >
                     <label htmlFor='name'>Message</label>
-                    <textarea onChange={this.getDescription} maxLength='450'></textarea>
+                    <textarea onChange={this.getDescription} maxLength='450' placeholder='Write your message here.'></textarea>
                 </div>
                 
                 <div>
-                    <p>We'll Answer as soon as possible</p>
+                    <p>We will Answer as soon as possible</p>
                     <input type='submit' name='submit' value='Send' onClick={this.submitForm}/>                
                 </div>
 

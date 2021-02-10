@@ -8,7 +8,7 @@ export default class Contact extends Component {
   return (
     <div id='contact'>
         <section>
-            <h2>Contate-nos</h2>
+            <h2>Contate-us</h2>
             <Form/>
         </section>
     </div>

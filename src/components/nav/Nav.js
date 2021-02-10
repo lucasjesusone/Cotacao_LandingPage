@@ -13,9 +13,9 @@ export default class Nav extends Component {
             
             
             <ul >
-                <li><a href='#mission'>Sobre nós</a></li>
-                <li><a href='contact'>Missão</a></li>
-                <li><a href='about-us'>Contato</a></li>
+                <li><a href='#mission'>About us</a></li>
+                <li><a href='contact'>Mission</a></li>
+                <li><a href='about-us'>Contact</a></li>
             </ul>
         
 

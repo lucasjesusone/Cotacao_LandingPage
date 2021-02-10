@@ -6,7 +6,7 @@ export default class Mission extends Component {
   return (
     <div id='mission'>
         <section className='section'>
-            <h2 className='title'>Nossa Missão</h2>
+            <h2 className='title'>Our Mission</h2>
             <div className='paragraph'>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>

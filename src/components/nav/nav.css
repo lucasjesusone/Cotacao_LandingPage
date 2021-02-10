@@ -17,7 +17,7 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background: #FFF;
-    
+    border-bottom: 2px solid #111;
   }
   
   
