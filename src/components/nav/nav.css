@@ -1,7 +1,14 @@
+.logo {
+  background-image: url('../../images/agriculture-icon-15.jpg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: 0.3vmin;
+}
+
 nav {
     position: fixed;
     z-index: 99;
-    background: #dcdcdc;
+    background-color: #FFF;
     z-index: 99;
     width: 100%;
     max-width: 1500px;
@@ -9,7 +16,8 @@ nav {
     padding: 12px 0;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background: grey;
+    background: #FFF;
+    
   }
   
   
@@ -24,8 +32,7 @@ nav {
   
   nav ul:first-of-type{
     grid-template-columns: 1fr;
-    background-repeat: no-repeat;
-    background-size: 40px;
+
     margin-left: 10px;
   }
   nav ul:first-of-type li{
@@ -40,6 +47,7 @@ nav {
     font-size: 35px;
     font-family: sans-serif;
     margin-left: 30px;
+    
   }
   
   nav ul:last-of-type{

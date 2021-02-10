@@ -9,7 +9,7 @@ export default class About extends Component {
             <h2 id='title'>About us</h2>
             <div>
                 <p id='text'>
-                    LoresIPSUM
+                Somos uma empresa especializada em cotação, usamos diversas integrações entre API's
                 </p>
             </div>
         </section>

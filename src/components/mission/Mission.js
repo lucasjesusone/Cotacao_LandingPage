@@ -8,8 +8,8 @@ export default class Mission extends Component {
         <section className='section'>
             <h2 className='title'>Nossa Missão</h2>
             <div className='paragraph'>
-                <p>LOREM</p>
-                <p>LOREM</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
             </div>
         </section>
     </div>

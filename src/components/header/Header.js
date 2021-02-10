@@ -10,7 +10,7 @@ export default class Header extends Component {
         <div className='head'>
             <h1>COTAR-ME <br/>CHANGING THE WORLD</h1>
             <div>
-                <p>LOREMIPSU</p>
+                <p>Integer posuere leo non erat ornare dictum id vitae magna. Proin consectetur iaculis nisi, ut convallis tortor tempor congue. Curabitur sit amet tempus felis. Duis tellus eros, pellentesque at rhoncus eu, maximus ut diam.</p>
                 <div><a className='contact' href='#contact'>Contact Us</a></div>
             </div>
         </div>
