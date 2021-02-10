@@ -1,0 +1,27 @@
+.section {
+    width: 70%;
+    padding-top: 70px;
+    padding-right: 0px;
+    margin: 50px auto 18px auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.0rem;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 6.0rem;
+    padding-right: 10px;
+    border-right: 3px solid #111;
+}
+
+.paragraph {
+    position: relative;
+}
+
+.paragraph p {
+    padding-left: 20px;
+    color: #000;
+}
