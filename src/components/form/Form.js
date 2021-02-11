@@ -55,19 +55,13 @@ export default class Form extends Component {
 
     submitForm = (event) =>{
         event.preventDefault();
-
-
-
         if(this.state.name === '' || this.state.email === '' || this.state.message === '') {
             this.setState({
                 formError: true
             })
             return false;
         } else {
-           
-           
-           
-            this.setState({
+           this.setState({
                 formError: false
              })
             console.log(`UserData: {
