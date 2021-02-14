@@ -80,8 +80,8 @@ export default class Form extends Component {
 
 
         return (
-            <form>
-            {/* I am just sending a basic error message */}
+           <form>
+                    {/* I am just sending a basic error message */}
                 {this.state.formError && 
                 <p className='error'>
                     Fill all the fields
@@ -89,6 +89,7 @@ export default class Form extends Component {
                 }
                 <p>Fill the following form to get contact with us.</p>
                 <div>
+                    
                     <label htmlFor='name'>Name</label>
                     <input type='text' name='name' placeholder='Seu nome' onChange={this.getName}/>
                 </div>
@@ -107,7 +108,7 @@ export default class Form extends Component {
                 </div>
 
 
-            </form>
+         </form>
         )
     }
 }

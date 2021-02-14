@@ -51,7 +51,7 @@
   }
 
 
-  @media (max-width: 968px) {
+  @media (max-width: 960px) {
       .services {
         display: inline;
       }

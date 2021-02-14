@@ -70,10 +70,15 @@ nav {
    
   }
 
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 960px) {
     nav ul li a {
       font-weight: bold;
       font-size: 12px;
+      
+    }
+
+    nav {
+      position: absolute;
     }
 
   }

@@ -17,12 +17,12 @@
 /*Estilização do Título*/
 #title {
     font-size: 50px;
-    margin-right: 3px;
+    margin-right: 2px;
     color: #FFF;
     text-transform: uppercase;
     line-height: 6rem;
     padding-right: 10px;
-    border-right: 3px solid #FFF;
+    border-right: 2px solid #FFF;
 }
 
 /*Estilização da div sem o ID*/

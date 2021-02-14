@@ -29,3 +29,11 @@ body * {
 
 } 
 
+
+@media (max-width: 900px) {
+  .container {
+    width: 100%;
+    max-width: 1500px;
+    position:absolute;
+  }
+}

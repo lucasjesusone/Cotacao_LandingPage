@@ -5,7 +5,7 @@ export default class Mission extends Component {
  render(){
   return (
     <div id='mission'>
-        <section className='section'>
+        <section className='sectionMission'>
             <h2 className='title'>Our Mission</h2>
             <div className='paragraph'>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>

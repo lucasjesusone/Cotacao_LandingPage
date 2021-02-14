@@ -18,7 +18,7 @@ section h2 {
 section form div {
     border:1px solid #eee;
     padding: 10px;
-  border-radius: 10px;
+   border-radius: 10px;
   font-size: 1.1rem;
   display: grid;
   margin-bottom: 10px;
@@ -77,3 +77,19 @@ section form div textarea {
     color: rgb(255, 57, 57);
     font-size: 1.3rem;
   }
+
+ @media (max-width: 900px) {
+  p {
+    text-align: center;
+  }
+
+  section div p {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+  }
+
+  section form {
+    margin-right: 6px;
+  }
+  
+ }
