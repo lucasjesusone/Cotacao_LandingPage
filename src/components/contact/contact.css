@@ -27,14 +27,7 @@ div section h2 {
 }
 
 
-@media (max-width: 900px) {
-  div section h2 {
-    
-    border-right: none;
-    margin-top: 0px;
-    
-  }
-}
+
 
 @media (max-width: 960px) {
   section {
@@ -45,7 +38,11 @@ div section h2 {
   }
   div section h2 {
     border-bottom: 1px solid #000 ;
+    border-right: none;
+    margin-top: 0px;
+    margin-left: 0px;
     text-align: center;
-    
+    font-size: 2.4rem;
+    line-height: 4rem;
   }
 }

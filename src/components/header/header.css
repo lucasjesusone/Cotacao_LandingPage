@@ -47,7 +47,7 @@ header {
     text-decoration: none;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 960px) {
     .head h1 {
         font-size: 1.3rem;
         width: 100%;
@@ -59,7 +59,7 @@ header {
 
     .head {
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 1fr;
         margin: 0 auto;
         width: 100%;
 

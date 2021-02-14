@@ -17,9 +17,10 @@
     font-size: 3.0rem;
     color: #000;
     text-transform: uppercase;
-    line-height: 6.0rem;
+    line-height: 6rem;
     padding-right: 10px;
-    border-right: 3px solid #111;
+    border-right: 2px solid #111;
+    
 }
 
 .paragraph {
@@ -29,4 +30,24 @@
 .paragraph p {
     padding-left: 20px;
     color: #000;
+}
+
+@media (max-width: 960px) {
+    .sectionMission {
+        border-right: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .title {
+        border-right: none;
+        font-size: 2.1rem;
+        padding-right: 0px;
+        text-align: center;
+        line-height: 4rem;
+      
+    }
 }

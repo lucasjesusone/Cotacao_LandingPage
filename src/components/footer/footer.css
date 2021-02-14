@@ -22,3 +22,12 @@ footer ul li a {
     color: #eee;
 
 }
+
+@media (max-width: 960px) {
+    footer ul {
+        position: relative;
+        display:inline;
+        justify-items: center;
+        
+    }
+}
