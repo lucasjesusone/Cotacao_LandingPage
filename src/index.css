@@ -4,7 +4,7 @@ body {
   font-family: Raleway;
   background: #eee;
   color: #111;
-
+  width: 100%;
 }
 body * {
   transition: all 0.300s ease-in-out;
@@ -16,6 +16,7 @@ body * {
 .container { 
   background-color: #fff;
   width: 100%;
+  
   max-width: 1500px;
   margin: 0 auto;
   
@@ -27,10 +28,8 @@ body * {
 } 
 
 
-@media (max-width: 960px) {
+@media (min-width: 300px) and (max-width: 860px)  {
   .container {
     width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-}
+    max-width: 1500px;
+  }}
