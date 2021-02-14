@@ -1,15 +1,16 @@
 .logo {
-  background-image: url('../../images/agriculture-icon-15.jpg');
-  background-repeat: no-repeat;
-  background-size: 40px;
-  background-position: 0.3vmin;
+  font-weight: 500;
+  color: #191970;
+  font-style: italic;
+  font-size: 35px;
+  font-family: sans-serif;
+  transform: translate( 3%, -45%);
 }
 
-nav {
+.navbar {
     position: fixed;
     z-index: 99;
     background-color: #FFF;
-    z-index: 99;
     width: 100%;
     max-width: 1500px;
     margin: 0 auto;  
@@ -17,56 +18,47 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background: #FFF;
-    border-bottom: 2px solid #111;
+    border-bottom: 1px solid #dacdad;
+    height: 60px;
   }
   
   
-  nav ul {
+  .list {
     width: 100%;
     display: grid;
     list-style: none;
     align-items: center;
     padding: 0;
     margin: 0;
+    grid-template-columns: repeat(3, 2fr);
+    margin-left: 10px;
+    transform: translate( 3%, -20%);
   } 
   
-  nav ul:first-of-type{
-    grid-template-columns: 1fr;
-
-    margin-left: 10px;
-  }
-  nav ul:first-of-type li{
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-indent: 30px;
-  }
-  nav ul:first-of-type li span {
-    font-weight: 500;
-    color: #191970;
-    font-style: italic;
-    font-size: 35px;
-    font-family: sans-serif;
-    margin-left: 30px;
-    
-  }
-  
-  nav ul:last-of-type{
-    grid-template-columns: repeat(3, 2fr);
-  
-  }
-  
-  
-  nav ul li a{
+ 
+  .nav-links {
     color:#000;
     text-decoration: none; 
     font-weight: bold;
-    display: block;
-  
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-indent: 30px;
+  }
+
+  .nav-links:hover{
+    background-color: #191970;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
+
+  .menu-icon {
+    display: none;
   }
   
 
   @media (max-width: 768px)  {
-    nav {
+    .navbar {
       position: fixed;
       z-index: 99;
       width: 100%;
