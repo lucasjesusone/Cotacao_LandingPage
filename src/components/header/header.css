@@ -3,6 +3,7 @@ header {
    background-position: center;
    position: relative;
    
+   
 }
 
 .head {
@@ -45,3 +46,19 @@ header {
     text-decoration: none;
 }
 
+@media (max-width: 960px) {
+    .head h1 {
+        font-size: 50px;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #111;
+        border-right: none;
+        margin-top: 2.6rem;
+        
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 90%;
+        margin: 0 auto;
+    }
+}

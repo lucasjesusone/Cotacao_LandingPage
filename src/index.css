@@ -8,6 +8,9 @@ body {
 }
 body * {
   transition: all 0.300s ease-in-out;
+  
+
+
 }
 
 .container { 
@@ -15,7 +18,10 @@ body * {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
- 
+  display: flexbox;
+  flex: auto;
+  flex-wrap: wrap;
+  flex-grow: 1;
   background: url('./images/background.jpg');
 
 

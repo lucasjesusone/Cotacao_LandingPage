@@ -7,15 +7,15 @@ export default class Nav extends Component {
     <nav>
            
             <ul>
-                <li className='logo'> <span> COTAR-ME</span></li>
+                <li className='logo'> <span> COTAR.ME</span></li>
             </ul>
         
             
             
-            <ul >
-                <li><a href='#mission'>About us</a></li>
+            <ul>
+                <li><a href='#mission'>Contatos</a></li>
                 <li><a href='contact'>Mission</a></li>
-                <li><a href='about-us'>Contact</a></li>
+                <li><a href='about-us'>Login</a></li>
             </ul>
         
 

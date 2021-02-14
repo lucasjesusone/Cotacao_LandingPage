@@ -2,6 +2,7 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
+    
 }
 /*DIV que engloba os cards*/
 .services {
@@ -47,4 +48,11 @@
 .services p:last-of-type{
     padding: 0px 90px 20px 90px; 
     text-align: left;
+  }
+
+
+  @media (max-width: 968px) {
+      .services {
+        display: inline;
+      }
   }

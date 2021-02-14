@@ -3,6 +3,9 @@
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: 0.3vmin;
+  
+ 
+  
 }
 
 nav {
@@ -17,7 +20,9 @@ nav {
     display: grid;
     grid-template-columns: 2fr 1fr;
     background: #FFF;
-    border-bottom: 2px solid #111;
+    border-bottom: 1px solid #868180 ;
+
+   
   }
   
   
@@ -47,7 +52,7 @@ nav {
     font-size: 35px;
     font-family: sans-serif;
     margin-left: 30px;
-    
+
   }
   
   nav ul:last-of-type{
@@ -61,6 +66,14 @@ nav {
     text-decoration: none; 
     font-weight: bold;
     display: block;
-  
+    
+   
   }
-  
+
+  @media screen and (max-width: 760px) {
+    nav ul li a {
+      font-weight: bold;
+      font-size: 12px;
+    }
+
+  }
