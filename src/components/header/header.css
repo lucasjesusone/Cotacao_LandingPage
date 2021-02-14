@@ -49,12 +49,14 @@ header {
 
 @media (max-width: 960px) {
     .head h1 {
-        font-size: 1.3rem;
+        font-size: 5rem;
         width: 100%;
         letter-spacing: 2px;
         border-bottom: 2px solid #111;
         border-right: none;
-        margin-top: 2.6rem
+        margin-top: 2.6rem;
+        text-align: center;
+
     }
 
     .head {
@@ -63,5 +65,10 @@ header {
         margin: 0 auto;
         width: 100%;
 
+    }
+
+    .head p {
+
+        font-size: 1.2rem;
     }
 }

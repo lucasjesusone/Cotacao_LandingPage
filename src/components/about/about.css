@@ -42,5 +42,13 @@ div {
     .intro {
         display: grid;
         grid-template-columns: 1fr;
+        width: 100%;
+        
+    }
+
+    #title {
+        border-right: none;
+        text-align: center;
+        border-bottom: 2px solid #FFF;
     }
 }

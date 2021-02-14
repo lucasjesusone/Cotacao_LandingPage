@@ -53,6 +53,9 @@
 
   @media (max-width: 960px) {
       .services {
-        display: inline;
+        display:list-item;
+        
       }
+
+      
   }
