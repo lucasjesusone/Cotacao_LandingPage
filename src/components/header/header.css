@@ -3,7 +3,7 @@
    background-position: center;
    position: relative;
    background-image: url(../../images/database-connections-freebase-ss-1920_r6vaok.jpg);
-
+   
 }
 
 .head {
@@ -15,7 +15,7 @@
     margin: 0 auto;
     padding-top: 12%;
     align-items: center;
-    color: #000;
+    color: #FFF;
     
 }
 
@@ -60,20 +60,27 @@
     .head h1 {
         font-size: 2rem;
         letter-spacing: 2px;
-        border-bottom: 2px solid #111;
+        border-bottom: 2px solid #FFF;
         border-right: none;
         margin-top: 2.6rem;
         text-align: center;
 
     }
 
+
+    .title-header {
+        color: #FFF;
+        padding-bottom: 160px;
+    }
     .head {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto;
         width: 100%;
         position: relative;
-        
+        color: #FFF;
+        font-weight: bold;
+        padding-top: 110px;
     }
 
     .head p {

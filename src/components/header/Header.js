@@ -8,7 +8,7 @@ export default class Header extends Component {
     <header className='header'>
         
         <div className='head'>
-            <h1>COTAR.ME<br/>CHANGING THE WORLD</h1>
+            <h1 className='title-header'>COTAR.ME<br/>CHANGING THE WORLD</h1>
             <div>
                 <p>Realize suas cotações de compras com fornecedores de forma fácil, receba notificações à cada evento que ocorre no processo. Além disso você também pode integrar nossa plataforma com seu sistema ERP</p>
                 <div>
