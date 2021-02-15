@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../about/about.css'
+import {MenuItems} from './MenuItems'
 
 export default class About extends Component {
  render(){
@@ -8,9 +9,15 @@ export default class About extends Component {
         <section className='intro'>
             <h2 id='title'>About us</h2>
             <div>
-                <p className='text'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                </p>
+               {MenuItems.map((item, index) => {
+                   return (
+                    <a key={index}>
+                        <p className={item.cName}>
+                            {item.message}
+                        </p>
+                    </a>
+                   )
+                })}
             </div>
         </section>
     </div>
