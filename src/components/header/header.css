@@ -35,9 +35,9 @@ header {
 }
 
 .contact {
-    background-color: blue;
+    background-color: #3acbf7;
     display: block;
-    color: cornsilk;
+    color: #FFF;
     font-weight: bold;
     width: 50%;
     margin: 0 auto;
@@ -45,6 +45,12 @@ header {
     padding: 12px;
     border-radius: 12px;
     text-decoration: none;
+}
+
+.contact:hover {
+    background-color: transparent;
+    transition: all 0.2s ease;
+    color: #6568f4;
 }
 
 @media (max-width: 768px)  {

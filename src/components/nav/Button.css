@@ -1,5 +1,5 @@
 :root {
-    --primary: #3acbf7;
+    --primary: #0000FF;
 }
 
 .btn {
@@ -23,7 +23,7 @@
 }
 
 .btn--outline {
-    background-color: transparent;
+    background-color: #4F4F4F;
     color: #FFF;
     padding: 8px 20px;
     border-radius: 4px;
