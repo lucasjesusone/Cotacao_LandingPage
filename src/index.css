@@ -19,19 +19,21 @@ body * {
   background-color: #fff;
   width: 100%;
   max-width: 1500px;
-  margin: 0 auto;
-  background: url('./images/background.jpg');
+  
+  
+
 
   
 
 } 
 
 
-@media screen and (max-width: 980px)  {
+@media (max-width: 539px)  {
   .container{
-  
     width: 100%;
-    
+    max-width: 1500px;
+   
+
   }
   body {
     width: 100%;
