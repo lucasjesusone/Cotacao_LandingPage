@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  padding: 0px;
+  padding: 0;
   font-family: Raleway;
-  background: #000;
+  background: #dcdcdc;
   color: #111;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1500px;
   z-index: 1;
-  
+  overflow-x: hidden;
 }
 body * {
   transition: all 0.3s ease-in-out;
@@ -20,7 +20,10 @@ body * {
   background-color: #fff;
   width: 100%;
   max-width: 1500px;
-  
+  display: block;
+  position: static;
+  background-image: url(./images/background.jpg);
+  box-sizing: border-box;
   
 
 
@@ -32,12 +35,12 @@ body * {
 @media screen and (min-width: 100px) and (max-width: 768px)  {
   .container{
     width: 100%;
-    max-width: 1500%;
-   
+    max-width: 700px;
+    overflow-x: hidden;
 
   }
   body {
     width: 100%;
-  
+    overflow-x: hidden;
     }
 }

@@ -46,9 +46,6 @@
     text-indent: 30px;
     background-color: #3acbf7;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
   }
 
   .nav-links:hover{
@@ -69,9 +66,9 @@
   
   
 
-  @media screen and (max-width: 768px)  {
+  @media screen and (min-width: 100px) and (max-width: 768px)  {
     .navbar {
-      position: relative;
+      position: fixed;
       width: 100%;
       
     }
@@ -91,28 +88,27 @@
     }
 
     .nav-menu.active {
-      background: #3d3dd6;
+      background: #00008B;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
       z-index: 1;
+      border-radius: 7px;
     }
 
     .nav-links {
       text-align: center;
       padding-top: 20px;
-      padding-right: 30px;
-      padding-left: 20px;
-      padding-bottom: 10px;
+      padding-right: 20px;
       width: 10rem;
       display: table;
-  
+      margin-left: 37px;
       margin-top: 20px;
 
     }
 
     .nav-links:hover {
-      background-color: #4ad9e4;
+      background-color: #FFF;
       border-radius: 10px;
       color: #111;
     }
@@ -129,7 +125,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(-100%, 80%);
+      transform: translate(-40%, 80%);
       font-size: 1.8rem;
       cursor: pointer;
     }
@@ -157,6 +153,7 @@
       background: #FFF;
       color: #111;
       transform: 250ms;
+    
     }
 
     Button {

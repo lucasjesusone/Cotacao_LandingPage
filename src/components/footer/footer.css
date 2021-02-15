@@ -32,8 +32,7 @@ footer ul li a {
     transition: all 0.2s ease;
     transform: scale(2.0);
 }
-
-@media (max-width: 768px) {
+@media screen and (min-width: 100px) and (max-width: 768px)  {
     footer ul {
         position: relative;
         display:inline;
@@ -41,7 +40,7 @@ footer ul li a {
         position: relative;
         display: grid;
         padding-top: 20px;
-        margin-left: 50px;
+        margin-right: 50px;
         font-size: 20px;
     }
 
