@@ -9,7 +9,7 @@ body {
   
 }
 body * {
-  transition: all 0.300s ease-in-out;
+  transition: all 0.3s ease-in-out;
   
 
 
@@ -27,10 +27,10 @@ body * {
 } 
 
 
-@media screen and (max-width: 660px)  {
+@media screen and (max-width: 980px)  {
   .container{
-    
-    width: 108.1%;
+  
+    width: 100%;
     
   }
   body {
@@ -38,5 +38,6 @@ body * {
     max-width: 1300px;
     padding: 0;
     margin: 0;
-  }
+    position: absolute;
+    }
 }

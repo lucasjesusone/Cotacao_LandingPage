@@ -9,7 +9,7 @@ import { MenuItems } from '../nav/MenuItems'
 
 export default class Nav extends Component {
     state = {clicked: false}
- 
+
 
     onhandleClick = () => {
         this.setState({ clicked: !this.state.clicked })
@@ -25,7 +25,9 @@ export default class Nav extends Component {
               <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
 
-            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+            <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}
+   
+            >
                 {MenuItems.map((item, index) => {
                   return (
                     <li key={index}>
