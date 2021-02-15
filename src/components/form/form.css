@@ -35,7 +35,7 @@ section form div:last-of-type {
   } 
   
 section form div:last-of-type input {
-    background: rgb(0, 99, 248);
+    background: #3acbf7;
     padding: 10px;
     color: #fff;
     border-radius: 10px;
@@ -43,6 +43,12 @@ section form div:last-of-type input {
     -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+  }
+
+  section form div:last-of-type input:hover {
+    background-color: #FFF;
+    transition: all 0.2s ease;
+    color: #6568f4;
   }
   
 section form div label {
