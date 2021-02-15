@@ -18,12 +18,9 @@ body * {
 .container { 
   background-color: #fff;
   width: 100%;
- 
   max-width: 1500px;
   margin: 0 auto;
-  
   background: url('./images/background.jpg');
-
 
   
 
