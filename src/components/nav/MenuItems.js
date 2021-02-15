@@ -15,5 +15,13 @@ export const MenuItems = [
         title: 'Contato',
         url: '#',
         cName: 'nav-links' //className
+    },
+
+    {
+        title: 'Sign up',
+        url: '#',
+        cName: 'nav-links-mobile'
     }
+
+    
 ]
