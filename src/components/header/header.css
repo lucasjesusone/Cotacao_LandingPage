@@ -30,8 +30,10 @@
 
 }
 
-.head p {
+.message {
     padding-left: 30px;
+    margin-left: 20px;
+    font-size: 1.2rem;
 }
 
 .contact {
@@ -83,9 +85,9 @@
         padding-top: 110px;
     }
 
-    .head p {
-
-        font-size: 1.2rem;
+    .message {
+        
+        font-size: 2.2rem;
     }
 
     .header {

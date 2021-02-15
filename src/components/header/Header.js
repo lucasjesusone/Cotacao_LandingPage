@@ -1,6 +1,7 @@
   import React, { Component } from 'react';
 
 import '../header/header.css'
+import { MenuItems } from './MenuItems';
 
 export default class Header extends Component {
  render(){
@@ -10,10 +11,15 @@ export default class Header extends Component {
         <div className='head'>
             <h1 className='title-header'>COTAR.ME<br/>CHANGING THE WORLD</h1>
             <div>
-                <p>Realize suas cotações de compras com fornecedores de forma fácil, receba notificações à cada evento que ocorre no processo. Além disso você também pode integrar nossa plataforma com seu sistema ERP</p>
-                <div>
-                    <a className='contact' href='#contact'>Contact Us</a>
-                </div>
+               {MenuItems.map((item, index) =>{
+                 return (
+                  <a key={index}>
+                    <p className={item.cName} href={item.url}>
+                      {item.message}
+                    </p>
+                  </a>
+                 )
+               })}
             </div>
         </div>
     </header>
