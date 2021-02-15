@@ -26,12 +26,10 @@
 
 .paragraph {
     position: relative;
-}
-
-.paragraph p {
     padding-left: 20px;
     color: #000;
 }
+
 
 @media (max-width: 960px) {
     .sectionMission {
