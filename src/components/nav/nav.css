@@ -51,7 +51,7 @@
     background-color: #4F4F4F;
     color: #FFF;
     border-radius: 4px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
   }
 
   .nav-links-mobile {
@@ -83,14 +83,14 @@
       left: -100%;
       opacity: 2;
       transition: all 0.5s ease;
-      border-radius: 4px;
+
     }
 
     .nav-menu.active {
       background: #6668f4;
       left: 0;
       opacity: 1;
-      transition: all 0.2s ease;
+      transition: all 0.5s ease;
       z-index: 1;
     }
 
@@ -99,12 +99,12 @@
       padding: 2rem;
       width: 100%;
       display: table;
+
     }
 
     .nav-links:hover {
       background-color: #7577fa;
       border-radius: 0;
-
     }
 
     .navbar-logo {
@@ -140,7 +140,7 @@
       text-decoration: none;
       color: #FFF;
       font-size: 1.5rem;
-      align-content: center;
+     
     }
 
     .nav-links-mobile:hover {

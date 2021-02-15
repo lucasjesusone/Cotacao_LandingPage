@@ -6,7 +6,8 @@ import Main from './components/main/Main'
 import Mission from './components/mission/Mission'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import Button from './components/nav/Button'
+
+
 export default class App extends Component {
  render(){
   return (
@@ -18,7 +19,7 @@ export default class App extends Component {
       <Mission/>
       <Contact/>
       <Footer/>
-      <Button />
+      
     </div>
    );
  }
