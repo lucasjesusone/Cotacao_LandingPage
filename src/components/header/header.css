@@ -1,4 +1,4 @@
-header {
+.header {
    height: 700px;
    background-position: center;
    position: relative;
@@ -79,5 +79,9 @@ header {
     .head p {
 
         font-size: 1.2rem;
+    }
+
+    .header {
+        width: 100%;
     }
 }

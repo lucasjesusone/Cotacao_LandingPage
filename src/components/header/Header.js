@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+  import React, { Component } from 'react';
 
 import '../header/header.css'
 
 export default class Header extends Component {
  render(){
   return (
-    <header>
+    <header className='header'>
         
         <div className='head'>
             <h1>COTAR.ME<br/>CHANGING THE WORLD</h1>
