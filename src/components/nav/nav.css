@@ -69,7 +69,7 @@
   
   
 
-  @media (max-width: 539px)  {
+  @media screen and (min-width: 100px) and (max-width: 768px)  {
     .navbar {
       position: fixed;
       width: 100%;
@@ -130,7 +130,7 @@
       position: absolute;
       top: 0;
       right: 0;
-      transform: translate(-100%, 80%);
+      transform: translate(-160%, 80%);
       font-size: 1.8rem;
       cursor: pointer;
     }
