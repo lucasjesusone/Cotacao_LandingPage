@@ -6,7 +6,7 @@ export const MenuItems = [
     },
 
     {
-        title: 'Misão',
+        title: 'Missão',
         url: '#',
         cName: 'nav-links' //className
     },

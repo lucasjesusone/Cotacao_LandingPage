@@ -6,8 +6,12 @@ import Main from './components/main/Main'
 import Mission from './components/mission/Mission'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+<<<<<<< HEAD
 
 
+=======
+import Button from './components/nav/Button'
+>>>>>>> 651c2d6e516b12afc0a869d8d382ba1a89b4d88a
 export default class App extends Component {
  render(){
   return (
@@ -19,7 +23,11 @@ export default class App extends Component {
       <Mission/>
       <Contact/>
       <Footer/>
+<<<<<<< HEAD
       
+=======
+      <Button />
+>>>>>>> 651c2d6e516b12afc0a869d8d382ba1a89b4d88a
     </div>
    );
  }
