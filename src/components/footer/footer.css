@@ -12,8 +12,9 @@ footer {
 footer ul {
     list-style: none;
     display: grid;
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
+    font-size: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
 }
@@ -23,11 +24,30 @@ footer ul li a {
 
 }
 
-@media (max-width: 960px) {
+.icon{
+    font-size: 20px;
+}
+
+.icon:hover {
+    transition: all 0.2s ease;
+    transform: scale(2.0);
+}
+
+@media (max-width: 768px) {
     footer ul {
         position: relative;
         display:inline;
         justify-items: center;
+        position: relative;
+        display: grid;
+        padding-top: 20px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .icon {
+        display: grid;
         
+        padding-right: 20px;
     }
 }
