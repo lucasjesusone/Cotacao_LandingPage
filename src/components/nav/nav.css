@@ -125,11 +125,7 @@
       position: absolute;
       top: 0;
       right: 0;
-<<<<<<< HEAD
       transform: translate(-40%, 80%);
-=======
-      transform: translate(-160%, 80%);
->>>>>>> c638905af40c2b70a517a7b9d7cf6afc87609756
       font-size: 1.8rem;
       cursor: pointer;
     }
