@@ -71,7 +71,7 @@
 
   @media screen and (max-width: 768px)  {
     .navbar {
-      position: fixed;
+      position: relative;
       width: 100%;
       
     }
@@ -113,7 +113,7 @@
     }
 
     .nav-links:hover {
-      background-color: #FFF;
+      background-color: #4ad9e4;
       border-radius: 10px;
       color: #111;
     }
