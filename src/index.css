@@ -2,12 +2,21 @@ body {
   margin: 0;
   padding: 0;
   font-family: Raleway;
+<<<<<<< HEAD
   background: #dcdcdc;
   color: #111;
   width: 100%;
   max-width: 1500px;
   z-index: 1;
   overflow-x: hidden;
+=======
+  background: #000;
+  color: #111;
+  width: 100%;
+  max-width: 1100px;
+  z-index: 1;
+  
+>>>>>>> c638905af40c2b70a517a7b9d7cf6afc87609756
 }
 body * {
   transition: all 0.3s ease-in-out;
@@ -20,10 +29,14 @@ body * {
   background-color: #111;
   width: 100%;
   max-width: 1500px;
+<<<<<<< HEAD
   display: block;
   position: static;
   background-image: url(./images/background.jpg);
   box-sizing: border-box;
+=======
+  
+>>>>>>> c638905af40c2b70a517a7b9d7cf6afc87609756
   
 
 
@@ -35,12 +48,23 @@ body * {
 @media screen and (min-width: 100px) and (max-width: 768px)  {
   .container{
     width: 100%;
+<<<<<<< HEAD
     max-width: 700px;
     overflow-x: hidden;
+=======
+    max-width: 1500%;
+   
+>>>>>>> c638905af40c2b70a517a7b9d7cf6afc87609756
 
   }
   body {
     width: 100%;
+<<<<<<< HEAD
     overflow-x: hidden;
     }
 }
+=======
+  
+    }
+}
+>>>>>>> c638905af40c2b70a517a7b9d7cf6afc87609756
