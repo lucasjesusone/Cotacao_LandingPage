@@ -1,3 +1,8 @@
+#about-us {
+    background-color: #C0C0C0;
+    border: 0.1rem solid #F5FFFA;
+}
+
 
 /*Estilização da section*/
 .intro {
@@ -11,18 +16,18 @@
     display: grid;
     grid-template-columns: 2fr 3fr;
     align-items: center;
-    
+        
 }
 
 /*Estilização do Título*/
 #title {
     font-size: 50px;
     margin-right: 2px;
-    color: #FFF;
+    color: #000;
     text-transform: uppercase;
     line-height: 6rem;
     padding-right: 10px;
-    border-right: 2px solid #FFF;
+    border-right: 2px solid #111;
 }
 
 /*Estilização da div sem o ID*/
@@ -34,7 +39,7 @@ div {
 /*Estilização do Paragrafo*/
 .text {
     padding-left: 12px;
-    color: #FFF;
+    color: #000;
     font-size: 20px;
 }
 

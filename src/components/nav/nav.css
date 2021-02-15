@@ -5,6 +5,7 @@
   font-size: 2.0rem;
   font-family: sans-serif;
   transform: translate( 3%, -45%);
+  
 }
 
 .navbar {
@@ -17,8 +18,9 @@
     padding: 12px 0;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    border-bottom: 1px solid #dacdad;
+    border-bottom: 1px solid #F5FFFA;
     height: 60px;
+    border-radius: 2px;
   }
   
   
