@@ -1,33 +1,27 @@
 import React, { Component } from 'react';
 import '../footer/footer.css'
-import { FaLinkedinIn } from 'react-icons/fa'
-import { AiFillGithub } from 'react-icons/ai'
+import { MenuItems } from './MenuItems';
 
 
 export default class Footer extends Component {
  render(){
   return (
-    <footer>
-        <h3></h3>
-        <p className='footer-text'>Support<br/> Lucasjesusone@gmail.com</p>
-        <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/lucasgabrieljesus/" target="_blank">
-                
-                <i className='icon'><FaLinkedinIn/>
-                </i>
-
-              </a>
-            </li>
-            
-            <li>
-              <a href="https://github.com/LucasJesusone" target="_blank">
-                
-                <i className='icon'><AiFillGithub />
-                </i>
-                
-              </a>
-            </li>
+    <footer className='footer'>
+       
+        <p className='title-footer'>Support<br/> Lucasjesusone@gmail.com</p>
+        <ul className='footer-list'>
+       
+             {MenuItems.map((item, index) => {
+                return (
+                <li key={index}>
+                  <a className={item.className} href={item.url} target={item.target}>
+                    {item.message}
+                  </a>
+                </li>
+                )
+            })} 
+              
+         
         </ul>
     </footer>
    );
