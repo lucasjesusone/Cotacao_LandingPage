@@ -9,10 +9,25 @@ export default class Footer extends Component {
   return (
     <footer>
         <h3></h3>
-        <p>Support<br/> Lucasjesusone@gmail.com</p>
+        <p className='footer-text'>Support<br/> Lucasjesusone@gmail.com</p>
         <ul>
-            <li><a href="https://www.linkedin.com/in/lucasgabrieljesus/" target="_blank"><FaLinkedinIn className='icon'/></a></li>
-            <li><a href="https://github.com/LucasJesusone" target="_blank"><AiFillGithub className='icon'/></a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/lucasgabrieljesus/" target="_blank">
+                
+                <i className='icon'><FaLinkedinIn/>
+                </i>
+
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://github.com/LucasJesusone" target="_blank">
+                
+                <i className='icon'><AiFillGithub />
+                </i>
+                
+              </a>
+            </li>
         </ul>
     </footer>
    );

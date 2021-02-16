@@ -19,7 +19,7 @@
     
 }
 
-.head h1 {
+.title-header {
     font-size: 5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -27,13 +27,15 @@
     margin: 0;
     letter-spacing: 2px;
     border-right: 2px solid #111; 
-
+    padding-right: 40px;
+    
 }
 
 .message {
     padding-left: 30px;
     margin-left: 20px;
     font-size: 1.2rem;
+    
 }
 
 .contact {
@@ -59,21 +61,19 @@
 }
 
 @media (max-width: 768px)  {
-    .head h1 {
+    .title-header {
         font-size: 2rem;
         letter-spacing: 2px;
         border-bottom: 2px solid #FFF;
         border-right: none;
         margin-top: 2.6rem;
         text-align: center;
-
-    }
-
-
-    .title-header {
         color: #FFF;
         padding-bottom: 160px;
+        padding-left: 45px;
     }
+
+
     .head {
         display: grid;
         grid-template-columns: 1fr;
@@ -88,9 +88,19 @@
     .message {
         
         font-size: 1.2rem;
+        padding-right: 20px;
     }
 
     .header {
         width: 100%;
+    }
+
+    .contact {
+        padding-right: 20px;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        margin: 0 auto;
+        cursor: pointer;
     }
 }

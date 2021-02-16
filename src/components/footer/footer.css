@@ -1,15 +1,12 @@
 footer {
-    background-color: #C0C0C0;
-    color: #000;
-    font-weight: bold;
+    background-color: #444;
+    color: #FFF;
     padding: 20px;
-    border: 0.1rem solid #F5FFFA;
-    border-top: none;
+    border-top: 3px solid #000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     text-align: center;
-    font-size: 1.2rem;
 }
 
 footer ul {
@@ -23,7 +20,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: #111;
+    color: #eee;
 
 }
 
@@ -35,21 +32,27 @@ footer ul li a {
     transition: all 0.2s ease;
     transform: scale(2.0);
 }
-@media screen and (min-width: 100px) and (max-width: 768px)  {
+
+@media (max-width: 768px) {
     footer ul {
-        position: relative;
-        display:inline;
-        justify-items: center;
-        position: relative;
-        display: grid;
-        padding-top: 20px;
-        margin-right: 50px;
-        font-size: 20px;
+      position: relative;
+      padding-bottom: 6px;
+      transform: translate(-135%, 60%);
     }
 
     .icon {
         display: grid;
-        
-        padding-right: 20px;
+        padding-right: 10px;
+        padding-top: 5px;
+        margin-right: 13px;
+    }
+
+
+    .footer-text {
+        font-size: 1rem;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 60px;
     }
 }

@@ -18,8 +18,8 @@ export default class Nav extends Component {
   return (
     <nav className='navbar'>
             
-           <h1 className='navbar-logo'>COTAR.ME</h1>
-           
+           <i className='navbar-logo'><h1>COTAR.ME</h1></i>
+          
            
            <div className='menu-icon' onClick={this.onhandleClick}>
               <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
