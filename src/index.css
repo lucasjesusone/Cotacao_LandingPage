@@ -8,6 +8,8 @@ body {
   max-width: 1500px;
   z-index: 1;
   overflow-x: hidden;
+  border: 1px solid #F5FFFA;
+  
 }
 body * {
   transition: all 0.3s ease-in-out;
