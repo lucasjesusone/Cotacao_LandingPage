@@ -1,6 +1,7 @@
-#about-us {
+.about-us {
     background-color: #C0C0C0;
     border: 0.1rem solid #F5FFFA;
+    padding: 40px;
 }
 
 
@@ -20,27 +21,31 @@
 }
 
 /*Estilização do Título*/
-#title {
+.title {
     font-size: 50px;
     margin-right: 2px;
     color: #000;
     text-transform: uppercase;
     line-height: 6rem;
-    padding-right: 10px;
+    padding-right: 40px;
     border-right: 2px solid #111;
+    
 }
+
 
 /*Estilização da div sem o ID*/
 div {
     position: relative;
+   
     
 }
 
 /*Estilização do Paragrafo*/
 .text {
-    padding-left: 12px;
+    padding-left: 14px;
     color: #000;
     font-size: 20px;
+  
 }
 
 @media (max-width: 960px) {
