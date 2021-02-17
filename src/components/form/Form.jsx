@@ -35,7 +35,7 @@ export default class Form extends Component {
             this.setState({
                 email: ''
             });
-            console.log('Incorrect Email, Must match Expression')
+            console.log('Email Incorreto')
         };
 
         console.log(this.state.email)
@@ -71,7 +71,7 @@ export default class Form extends Component {
             }`)
         
         
-            console.log("form sent")
+            console.log("Formulário Enviado")
         
         }
      
@@ -84,13 +84,13 @@ export default class Form extends Component {
                     {/* I am just sending a basic error message */}
                 {this.state.formError && 
                 <p className='error'>
-                    Fill all the fields
+                    Preencha todos os campos
                 </p>
                 }
-                <p>Fill the following form to get contact with us.</p>
+                <p>Preencha o seguinte formulário para entrar em contato conosco.</p>
                 <div>
                     
-                    <label htmlFor='name'>Name</label>
+                    <label htmlFor='name'>Nome</label>
                     <input type='text' name='name' placeholder='Seu nome' onChange={this.getName}/>
                 </div>
                 <div>
@@ -98,13 +98,13 @@ export default class Form extends Component {
                     <input type='email' name='email' placeholder='Seu Email' onChange={this.getEmail} />
                 </div>
                 <div >
-                    <label htmlFor='name'>Message</label>
-                    <textarea onChange={this.getDescription} maxLength='450' placeholder='Write your message here.'></textarea>
+                    <label htmlFor='name'>Mensagem</label>
+                    <textarea onChange={this.getDescription} maxLength='450' placeholder='Escreva sua mensagem aqui.'></textarea>
                 </div>
                 
                 <div>
-                    <p>We will Answer as soon as possible</p>
-                    <input type='submit' name='submit' value='Send' onClick={this.submitForm}/>                
+                    <p>Iremos responder em breve</p>
+                    <input type='submit' name='submit' value='Enviar' onClick={this.submitForm}/>                
                 </div>
 
 
