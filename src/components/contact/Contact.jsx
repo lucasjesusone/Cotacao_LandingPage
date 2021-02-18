@@ -5,13 +5,13 @@ import Form from '../form/Form'
 
 
 const Contact = () => {
-      
-      const { contact } = useContext(LandingProvider) 
-      const { titleContact } = contact
+
+const { contact } = useContext(LandingProvider)  
+const { titleContact } = contact
 
   return (
     <div id='contact'>
-        <section>
+        <section >
             <h2 >{titleContact || 'olá'}</h2>
             <Form />
         </section>

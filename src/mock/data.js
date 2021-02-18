@@ -9,17 +9,17 @@ export const navData = {
     navbar: [
         {
             id: nanoid(),
-            url: '',
+            url: 'about',
             boxText: 'Sobre'
         },
         {
             id: nanoid(),
-            url: '',
+            url: 'mission',
             boxText: 'Missão'
         },
         {
             id: nanoid(),
-            url: '',
+            url: 'contact',
             boxText: 'Contato'
         }
     ]
@@ -36,7 +36,7 @@ export const headerData = {
 
     
 export const aboutData = {
-    id: nanoid(),
+    
     textabout : 'Sobre Nós',
     message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget posuere quam, non imperdiet nulla. Etiam malesuada, tortor vel blandit porttitor, neque risus porttitor est, tristique sodales magna enim nec leo. Quisque volutpat tempus libero, in posuere tortor pretium et. Aliquam tempor, neque sed tincidunt rhoncus',
 }
@@ -98,15 +98,11 @@ export const footerData = {
     footerMap: [
       {
         id: nanoid(),
-        title: 'Suporte',
-        subtitle: '',
         icon: <FaLinkedinIn/> ,
         url: 'https://www.linkedin.com/in/lucasgabrieljesus/',
       },
       {
         id: nanoid(),
-        title: '',
-        subtitle: '',
         icon: <AiFillGithub/>,
         url: 'https://github.com/LucasJesusone',
       },
