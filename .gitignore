@@ -9,8 +9,8 @@
 /coverage
 
 
-
-.build
+#Build
+/build
 
 # misc
 .DS_Store
