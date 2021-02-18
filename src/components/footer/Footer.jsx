@@ -1,4 +1,5 @@
-import React, { useContext, Fragment } from 'react';
+import React, { useContext} from 'react';
+import { Link } from 'react-scroll'
 import '../footer/footer.css'
 import LandingContext from '../../context/context'
 
@@ -7,32 +8,36 @@ const Footer = () => {
   const { footer } = useContext(LandingContext);
   const { footerMap } = footer
   
-  return (
-    <footer className='footer'>
-       
-       <p className='title-footer'>Suporte<br/>lucasjesusone@gmail.com</p>
-        <ul className='footer-list'>
+return (
+  <footer className='footer'>
+      <p className='title-footer'>Suporte<br/>lucasjesusone@gmail.com</p>
+          <ul className='footer-list'>
         
         {footerMap && 
-          footerMap.map(function(item) {
+           footerMap.map(function(item) {
             
-             const { id, title, subtitle, url, icon, icon1} = item
+          const { id, url, icon, icon1} = item
              return (
-              <li key={id}>
+                <li key={id}>
                 
-                <a  
-                className='footericon'
-                href={url || 'https://www.linkedin.com/in/lucasgabrieljesus/'} 
-                target='_blank' 
-                rel='noopener noreferrer'
-                >
-                  {icon}
-                  {icon1}
-                </a>        
-              </li>
+                  <a  
+                    className='footericon'
+                    href={url || 'https://www.linkedin.com/in/lucasgabrieljesus/'} 
+                    target='_blank' 
+                    rel='noopener noreferrer'
+                    >
+                      {icon}
+                      {icon1}
+                  </a>
+                    
+                </li>
               );
-         
-        })}
+          })}
+                 <span>
+                   <Link to="mapHeader" smooth duration={1000}>
+                      <i className="fa fa-angle-up fa-2x" aria-hidden="true" id='topFooter'/>
+                    </Link>
+                </span>   
         
         </ul>
     </footer>
