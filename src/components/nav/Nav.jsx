@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import '../../components/nav/nav.css'
 import LandingContext from '../../context/context';
 
+
 import { Button } from './Button'
 
 
@@ -60,10 +61,20 @@ const { navbar } = nav;
                       </li>
                               )
                       })}
-                   
-                      
-                      <a href='https://www.youtube.com/watch?v=L7Rh_gkJT6M' target='_blank' rel='noreferrer'><Button className='nav-links-mobile' >Login</Button> </a>
-
+                 
+                        <a 
+                        href='www.app.cotar.me' 
+                        target='_blank' 
+                        rel='noreferrer noopener'
+                        >
+                          
+                          <Button className='nav-links-mobile'>
+                            
+                            Login
+                          
+                          </Button>
+                        </a>
+   
                      </ul>
                   
           </nav>
