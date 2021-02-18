@@ -47,3 +47,18 @@
     font-size: 18px;
     color: #FFF
 }
+
+@media screen and (max-width: 768px) {
+    .btn--medium {
+        padding: 8px 90px;
+        border-radius: 4px;
+        font-size: 18px;
+        color: #FFF;
+        margin-top: 15px;
+        margin-left: -60px;
+        
+    }
+    
+  
+}
+

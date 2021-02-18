@@ -15,6 +15,7 @@
     margin-bottom: 0px;
     margin-left: auto;
     display: grid;
+    overflow-x: hidden;
     grid-template-columns: 2fr 3fr;
     align-items: center;
         
@@ -41,10 +42,11 @@ div {
 }
 
 /*Estilização do Paragrafo*/
-.text {
+.textMessage {
     padding-left: 14px;
     color: #000;
     font-size: 20px;
+ 
   
 }
 

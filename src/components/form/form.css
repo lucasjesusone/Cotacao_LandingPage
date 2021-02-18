@@ -1,5 +1,6 @@
 section div {
     position: relative;
+    
   }
   
 section div p {
@@ -10,6 +11,7 @@ section div p {
 section form {
     padding: 0px;
     margin: 0;
+    
   }
 section h2 {
     font-size: 3rem;
@@ -43,6 +45,7 @@ section form div:last-of-type input {
     -webkit-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 10px -9px rgba(0,0,0,0.75);
+  
   }
 
   section form div:last-of-type input:hover {

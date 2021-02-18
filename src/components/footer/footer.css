@@ -4,6 +4,7 @@
     border-top: none;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
 }
 
 .title-footer {
@@ -11,6 +12,7 @@
     color: #FFF;
     display: block;
     margin: 0 auto;
+    margin-left: 120px;
 }
 
 .footer-list {
@@ -18,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(10, 4fr);
     transform: translate(37%, 20%);
-
+    
 }
 
 .footericon{
@@ -30,7 +32,17 @@
 .footericon:hover {
     transition: all 0.2s ease;
     color: #FFF;
-    transform: scale(2.1)
+    transform: scale(1.1);
+}
+
+#topFooter {
+    cursor: pointer;
+    transform: translate(26rem, 1rem);
+}
+
+#topFooter:hover {
+    transition: all 0.2s ease;
+    color: #FFF;
 }
 
 @media screen and (max-width: 768px) {
@@ -39,12 +51,25 @@
         display: grid;
         grid-template-columns: 40px 40px 40px 40px;
         transform: translate(25%, 50%);
-    
+        
     }
 
-    .footer-text {
+    .title-footer {
         text-align: center;
+        font-size: 15px;
+        margin-left: 20px;
     }
+   
+    #topFooter {
+        cursor: pointer;
+        transform: translate(5rem, 0.5rem);
+    }
+    
+    #topFooter:hover {
+        transition: all 0.2s ease;
+        color: #FFF;
+    }
+    
 
     .footericon{
         color: #000;

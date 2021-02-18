@@ -1,73 +1,61 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import '../form/form.css'
 
-export default class Form extends Component {
- constructor(){
-     super();
-     this.state = {
-        name: '',
-        email: '',
-        message: '',
-        formError: false
-        }
-    }    
+const Form = () => {
+const [name, setName] = useState('')
+const [email, setEmail] = useState('')
+const [message, setDescription] = useState('')
+const [formError, setFormError] = useState(false)
 
+    const getName = (event) => {let username = event.target.value; 
+        setName(username);
 
-    getName = (event) => {
-        let username = event.target.value;
-        this.setState({
-            name: username
-        });
+        console.log(name)
+        } 
 
-        console.log(this.state.name)
-    } 
-
-    getEmail = (event) => {
+        const getEmail = (event) => {
         let userEmail = event.target.value;
-        //the most important thing is that we use a RegEx
-        //in order to manage the input of the email
-        //at least we can get a some what valid email
-        if(userEmail.match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/)){ 
-            this.setState({
-                email: userEmail
-        });
+        
+        if(userEmail.match(/^([a-zA-Z0-9_\-.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/)){ 
+            setEmail(
+                userEmail
+        );
             }else {
-            this.setState({
+            setEmail({
                 email: ''
             });
             console.log('Email Incorreto')
         };
 
-        console.log(this.state.email)
-    }
+        console.log(email)
+     }
 
-
-    getDescription = (event) => {
+    const getDescription = (event) => {
         let userMessage = event.target.value;
-        this.setState({
-            message: userMessage
-        });
-        console.log(this.state.message)
+        setDescription(
+            userMessage
+        );
+        console.log(message)
     }
 
-
-    //sending form
-
-    submitForm = (event) =>{
+    const submitForm = (event) =>{
         event.preventDefault();
-        if(this.state.name === '' || this.state.email === '' || this.state.message === '') {
-            this.setState({
-                formError: true
-            })
+        if(submitForm === true) {
+            return ('')
+        }
+        if(name === '' || email === '' || message === '') {
+            setFormError(
+                        true
+            )
             return false;
         } else {
-           this.setState({
-                formError: false
-             })
+           setFormError(
+                false
+             )
             console.log(`UserData: {
-                Username: ${this.state.name},
-                Email: ${this.state.email},
-                Message: ${this.state.message}
+                Username: ${name},
+                Email: ${email},
+                Message: ${message}
             }`)
         
         
@@ -76,39 +64,41 @@ export default class Form extends Component {
         }
      
       }
-    render() {
-
+      
+     
+    
 
         return (
            <form>
                     {/* I am just sending a basic error message */}
-                {this.state.formError && 
-                <p className='error'>
-                    Preencha todos os campos
+                    {formError && 
+                 <p className='error'>
+                     Preencha todos os campos
                 </p>
-                }
+                    }
+        
                 <p>Preencha o seguinte formulário para entrar em contato conosco.</p>
                 <div>
                     
                     <label htmlFor='name'>Nome</label>
-                    <input type='text' name='name' placeholder='Seu nome' onChange={this.getName}/>
+                    <input type='text' name='name' placeholder='Seu nome' onChange={getName}/>
                 </div>
                 <div>
                     <label htmlFor='email'>Email</label>
-                    <input type='email' name='email' placeholder='Seu Email' onChange={this.getEmail} />
+                    <input type='email' name='email' placeholder='Seu Email' onChange={getEmail} />
                 </div>
                 <div >
                     <label htmlFor='name'>Mensagem</label>
-                    <textarea onChange={this.getDescription} maxLength='450' placeholder='Escreva sua mensagem aqui.'></textarea>
+                    <textarea onChange={getDescription} maxLength='450' placeholder='Escreva sua mensagem aqui.'></textarea>
                 </div>
                 
                 <div>
                     <p>Iremos responder em breve</p>
-                    <input type='submit' name='submit' value='Enviar' onClick={this.submitForm}/>                
+                    <input type='submit' name='submit' value='Enviar' onClick={submitForm}/>                
                 </div>
 
 
          </form>
         )
-    }
-}
+}     
+export default Form;

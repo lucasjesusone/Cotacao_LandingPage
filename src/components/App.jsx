@@ -39,8 +39,8 @@ useEffect(() =>{
 }, []);
 
 return (
-    <LandingProvider value={{main, about, nav, header, mission, contact, footer}}>
-        <div className='container'>
+    <LandingProvider value={{main, about, nav, header, mission, contact, footer}} className='container'>
+        
         <Nav/>
         <Header />
         <About/>
@@ -48,7 +48,7 @@ return (
         <Mission />
         <Contact />
         <Footer />
-        </div>
+        
     </LandingProvider>
 )
 }
