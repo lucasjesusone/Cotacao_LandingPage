@@ -1,59 +1,70 @@
-      import React, {useState, useContext } from 'react';
+import React, {useState, useContext } from 'react';
+import { Link } from 'react-scroll'
+import '../../components/nav/nav.css'
+import LandingContext from '../../context/context';
 
-      import '../../components/nav/nav.css'
-      import LandingContext from '../../context/context';
-      import { Button } from './Button'
-
-
-
+import { Button } from './Button'
 
 
-      const Nav = () => {
+
+
+
+const Nav = () => {
           
-          const [clicked, setClicked] = useState(false)
-          const onHandleClick = (event) => {
-            setClicked(!event.target.value)
-          }
+const [clicked, setClicked] = useState(false)
+const onHandleClick = () => {
+setClicked(!clicked)
+}
           
          
-          const { nav } = useContext(LandingContext);
-          const { navbar } = nav;
+const { nav } = useContext(LandingContext);
+const { navbar } = nav;
     
-        return (
-          <>
-          <nav className='navbar'>
-                  
-                  <i className='navbar-logo'><h1>COTAR.ME</h1></i>
-                
-                
-                <div className='menu-icon' onClick={onHandleClick} value={onHandleClick}>
-                    <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
-                </div>
 
-                  <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>   
+          
+             
+    return (
+          <>
+            <nav className='navbar' id='nav'>
+                  
+                <i className='navbar-logo'><h1>COTAR.ME</h1></i>
+                
+                
+                 <div className='menu-icon' onClick={onHandleClick}>
+                    <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                 </div>
+
+                     <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>   
                         
                         {navbar && 
                                 navbar.map((item) => {
 
-                          const {id, url, boxText} = item
+                            const {id, url, boxText} = item
                               
-                          return (   
+                            return (   
                           
-                          <li 
+                       <li 
                             key={id}
-                            href={url }
                             rel='noopener noreferrer'
+                            onClick={ () => setClicked(false)}
+                            >
                             
-                          >
-                            <a className='nav-links'  >
+                            <Link to={url} 
+                            smooth duration={1000} 
+                            className='nav-links' 
+                            onClick={ () => setClicked(false)} 
+                            >
                               {boxText || ''}
-                            </a>
-                            
-                          </li>
-                        )
+                            </Link>
+                           
+                      </li>
+                              )
                       })}
-                      <Button className='nav-links-mobile'>Sign up</Button>
-                  </ul>
+                   
+                      
+                      <a href='https://www.youtube.com/watch?v=L7Rh_gkJT6M' target='_blank' rel='noreferrer'><Button className='nav-links-mobile' >Login</Button> </a>
+
+                     </ul>
                   
           </nav>
           </>
@@ -61,3 +72,4 @@
       }
 
       export default Nav;
+      
