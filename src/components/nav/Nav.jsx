@@ -63,7 +63,7 @@ const { navbar } = nav;
                       })}
                  
                         <a 
-                        href='www.app.cotar.me' 
+                        href='https://lucasjesus.netlify.app/' 
                         target='_blank' 
                         rel='noreferrer noopener'
                         >
