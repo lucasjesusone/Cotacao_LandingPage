@@ -4,25 +4,25 @@ import '../about/about.css'
 
 
 const About = () => {
-    const { about } = useContext(LandingContext);
-    const { textabout, message } = about;
+const { about } = useContext(LandingContext);
+const { textabout, message } = about;
   
     return ( 
-    <div className='about-us'>
-        <section className='intro'>
-            <h2 className='title'>{textabout || 'Lorem'}</h2>
-            <div>
+        <div id='about'>
+            <div className='about-us' >
+                <section className='intro'>
+                    <h2 className='title'>{textabout || 'Lorem'}</h2>
+                         <div>
              
-             <a>
-                <p className='text'>
-                    {message || 'Lorem'}
-                </p>
-            </a>
-                   
-               
-            </div>
+                                <div>
+                                     <p className='textMessage'>
+                                         {message || 'Lorem'}
+                                     </p>
+                    </div>
+             </div>
         </section>
     </div>
+</div>
    );
  }
 
