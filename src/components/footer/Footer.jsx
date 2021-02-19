@@ -10,7 +10,7 @@ const Footer = () => {
   
 return (
   <footer className='footer'>
-      <p className='title-footer'>Suporte<br/>lucasjesusone@gmail.com</p>
+    
           <ul className='footer-list'>
         
         {footerMap && 
@@ -40,6 +40,13 @@ return (
                 </span>   
         
         </ul>
+
+        <p className="footer__text">
+          © {new Date().getFullYear()} - Developed by {' '}
+        
+            Lucas Gabriel de Jesus
+  
+        </p>
     </footer>
    );
 }

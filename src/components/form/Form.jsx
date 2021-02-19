@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../form/form.css'
 
+
 const Form = () => {
 const [name, setName] = useState('')
 const [email, setEmail] = useState('')
@@ -52,6 +53,7 @@ const [formError, setFormError] = useState(false)
            setFormError(
                 false
              )
+
             console.log(`UserData: {
                 Username: ${name},
                 Email: ${email},
