@@ -45,7 +45,6 @@ return (
           © {new Date().getFullYear()} - Developed by {' '}
         
             Lucas Gabriel de Jesus
-  
         </p>
     </footer>
    );

@@ -1,1 +1,0 @@
-<h1>Projeto de Landing Page desenvolvido com ReactJS<h1>

@@ -21,18 +21,18 @@ app.post('/api/form', (req, res) => {
        ` 
 
        let transporter = nodemailer.createTransport({
-           host: 'smtp.umbler.com',
-           port: '587',
+           host: '',
+           port: '',
            auth: {
-                user: 'contato@cotars.me',
-                pass: 'contato@123'
+                user: '',
+                pass: ''
             }
        })
 
        let mailOptions = {
-           from: 'contato@cotars.me',
-           to: 'contato@cotars.me',
-           replyTo: 'lucasmijesus2@gmail.com',
+           from: '',
+           to: '',
+           replyTo: '',
            subject: 'New Message',
            text: req.body.message,
            html: htmlEmail
