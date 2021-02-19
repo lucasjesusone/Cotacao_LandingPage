@@ -1,11 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import '../form/form.css'
+
 
 const Form = () => {
 const [name, setName] = useState('')
 const [email, setEmail] = useState('')
 const [message, setDescription] = useState('')
 const [formError, setFormError] = useState(false)
+
+
+
 
     const getName = (event) => {let username = event.target.value; 
         setName(username);
@@ -37,9 +41,13 @@ const [formError, setFormError] = useState(false)
         );
         console.log(message)
     }
-
+    
+    
+    //Submit Form
     const submitForm = (event) =>{
         event.preventDefault();
+
+
         if(submitForm === true) {
             return ('')
         }
