@@ -1,1 +1,2 @@
-<h1>Projeto de Landing Page desenvolvido com ReactJS<h1>
+<h1>Projeto de uma Landing Page<h1>
+<p>Em desenvolvimento<p/>
