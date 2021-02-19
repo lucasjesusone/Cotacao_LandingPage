@@ -1,0 +1,48 @@
+#contact {
+  background-color: #dcdcdc;
+  border: 0.1rem solid #F5FFFA; 
+}
+
+section {
+    width: 70%;
+    
+    padding: 90px 0;
+    
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    
+  }
+  
+div section h2 {
+    font-size: 3.0rem;
+    color: #000;
+    text-transform: uppercase;
+   line-height: 6rem; 
+   padding-right: 10px;
+   border-right: 3px solid #000;
+}
+
+
+
+
+@media (max-width: 960px) {
+  section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr ;
+
+  }
+  div section h2 {
+    border-bottom: 1px solid #000 ;
+    border-right: none;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+}

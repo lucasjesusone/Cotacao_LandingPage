@@ -1,0 +1,52 @@
+.divMission {
+    background-color: #C0C0C0;
+    border: 0.1rem solid #F5FFFA;
+    border-bottom: none;
+}
+
+.sectionMission {
+    width: 70%;
+    padding-top: 70px;
+    padding-right: 0px;
+    margin: 0px auto 0px auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.0rem;
+    color: #000;
+    text-transform: uppercase;
+    line-height: 6rem;
+    padding-right: 10px;
+    border-right: 2px solid #111;
+    
+}
+
+.paragraph {
+    position: relative;
+    padding-left: 20px;
+    color: #000;
+}
+
+
+@media (max-width: 960px) {
+    .sectionMission {
+        border-right: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    .title {
+        border-right: none;
+        font-size: 2.1rem;
+        padding-right: 0px;
+        text-align: center;
+        line-height: 4rem;
+      
+    }
+}
