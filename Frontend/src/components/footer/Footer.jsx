@@ -10,7 +10,12 @@ const Footer = () => {
   
 return (
   <footer className='footer'>
-    
+        
+        <p className="title-footer">
+          © {new Date().getFullYear()} - Developed by {' '}
+        
+            <i className='footerName'>Lucas Gabriel de Jesus</i>
+        </p>
           <ul className='footer-list'>
         
         {footerMap && 
@@ -41,11 +46,7 @@ return (
         
         </ul>
 
-        <p className="footer__text">
-          © {new Date().getFullYear()} - Developed by {' '}
         
-            Lucas Gabriel de Jesus
-        </p>
     </footer>
    );
 }
