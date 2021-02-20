@@ -35,21 +35,13 @@
     cursor: pointer;
 }
 
-.footericon:hover {
-    transform: scale(1.8);
-    transition: all 0.2s ease-in-out;
-}
 
 #topFooter {
     cursor: pointer;
     transform: translate(26rem, 1rem);
 }
 
-#topFooter:hover {
-    transition: all 0.1s ease;
-    color: #FFF;
-    
-}
+
 
 @media screen and (max-width: 768px) {
     .footer-list {
@@ -70,12 +62,7 @@
         cursor: pointer;
         transform: translate(5rem, 0.5rem);
     }
-    
-    #topFooter:hover {
-        transition: all 0.2s ease;
-        color: #FFF;
-    }
-    
+  
 
     .footericon{
         color: #000;
