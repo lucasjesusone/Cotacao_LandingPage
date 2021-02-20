@@ -25,7 +25,7 @@ return (
              return (
                 <li key={id}>
                 
-                  <a  
+                  <div  
                     className='footericon'
                     href={url || 'https://www.linkedin.com/in/lucasgabrieljesus/'} 
                     target='_blank' 
@@ -33,7 +33,7 @@ return (
                     >
                       {icon}
                       {icon1}
-                  </a>
+                  </div>
                     
                 </li>
               );

@@ -36,9 +36,8 @@
 }
 
 .footericon:hover {
-    transition: all 0.2s ease;
-    color: #FFF;
-    transform: scale(1.1);
+    transform: scale(1.8);
+    transition: all 0.2s ease-in-out;
 }
 
 #topFooter {
@@ -47,8 +46,9 @@
 }
 
 #topFooter:hover {
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
     color: #FFF;
+    
 }
 
 @media screen and (max-width: 768px) {
