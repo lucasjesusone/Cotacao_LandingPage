@@ -6,11 +6,13 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "eslint": "^7.20.0",
     "nanoid": "^3.1.20",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-native-vector-icons": "^8.0.0",
+    "react-reveal": "^1.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "react-scroll": "^1.8.1",
@@ -39,5 +41,29 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "2.2.1"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/public/**": true,
+    "**/node_modules": true,
+    "**/dist/**": true
+  },
+  "editor.formatOnSave": true
 }
