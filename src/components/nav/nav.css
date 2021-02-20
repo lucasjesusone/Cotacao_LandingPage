@@ -83,7 +83,7 @@
   
   
 
-  @media screen and (max-width: 1024px)  {
+  @media screen and (max-width: 768px)  {
     .navbar {
       position: fixed;
       width: 100%;
@@ -114,7 +114,7 @@
     }
 
     .nav-links {
-
+      background-color: #00008B;
       text-align: center;
       padding-top: 20px;
       padding-right: 20px;
@@ -126,9 +126,10 @@
     }
 
     .nav-links:hover {
-      background-color: #FFF;
-      border-radius: 10px;
-      color: #111;
+       background-color: #FFF;
+       color: #000;
+       border-radius: 6px;
+       transition: all 0.1s ease;
     }
 
     .navbar-logo {
@@ -158,26 +159,5 @@
       font-size: 2rem;
     }
 
-    .nav-links-mobile {
-      display: block;
-      text-align: center;
-      padding: 12px;
-      margin: 2rem 1.2rem 0px 5.5rem;
-      border-radius: 4px;
-      width: 240px;
-      background: #4ad9e4;
-      text-decoration: none;
-      color: #FFF;
-      font-size: 1.5rem;
-    }
-
-    .nav-links-mobile:hover {
-      background: #FFF;
-      color: #111;
-      transform: 250ms;
-    
-    }
-
-    
 
   }

@@ -76,7 +76,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button className="nav-links-mobile">Login</Button>{" "}
+            <Button>Login</Button>
           </a>
         </ul>
       </nav>
