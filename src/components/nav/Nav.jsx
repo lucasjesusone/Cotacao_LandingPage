@@ -19,7 +19,7 @@ const Nav = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    if (window.innerWidth > 768) {
+    if (window.innerWidth > 600) {
       setIsDesktop(true);
       setIsMobile(false);
     } else {
