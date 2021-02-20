@@ -53,7 +53,7 @@ const Nav = () => {
                 >
                   <Fade
                     right={isDesktop}
-                    /*left={isMobile}*/
+                    left={isMobile}
                     duration={1000}
                     delay={500}
                   >
