@@ -32,7 +32,7 @@
 .footericon{
     color: #000;
     font-size: 1.8rem;
-
+    cursor: pointer;
 }
 
 .footericon:hover {
