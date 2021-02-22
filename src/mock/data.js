@@ -10,7 +10,7 @@ export const navData = {
         {
             id: nanoid(),
             url: 'about',
-            boxText: 'Sobre'
+            boxText: 'ssobre'
         },
         {
             id: nanoid(),
