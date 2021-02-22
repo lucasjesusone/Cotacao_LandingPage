@@ -23,12 +23,12 @@ const Mission = () => {
   return (
     <div className="divMission" id="mission">
       <section className="sectionMission">
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600}>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500}>
           <div>
             <h2 className="title">{title || "Something"}</h2>
           </div>
         </Fade>
-        <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={600}>
+        <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500}>
           <div>
             <p className="paragraph">{paragraph1 || "something"}</p>
             <p className="paragraph">{paragraph2 || "something"}</p>

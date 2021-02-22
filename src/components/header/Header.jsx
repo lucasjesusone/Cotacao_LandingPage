@@ -27,7 +27,7 @@ const Header = () => {
         left={isDesktop}
         bottom={isMobile}
         duration={1000}
-        delay={700}
+        delay={500}
         distance="40px"
       >
         <div className="head">
