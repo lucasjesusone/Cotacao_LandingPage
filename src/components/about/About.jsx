@@ -24,10 +24,10 @@ const About = () => {
     <div id="about">
       <div className="about-us">
         <section className="intro">
-          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600}>
+          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500}>
             <h2 className="title">{textabout || "Lorem"}</h2>
           </Fade>
-          <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={600}>
+          <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500}>
             <div>
               <p className="textMessage">{message || "Lorem"}</p>
             </div>

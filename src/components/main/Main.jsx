@@ -33,7 +33,7 @@ const Main = () => {
                     bottom={isDesktop}
                     left={isMobile}
                     duration={1000}
-                    delay={600}
+                    delay={500}
                   >
                     <div className="service-one">
                       <p className="service-icon">{icon}</p>
