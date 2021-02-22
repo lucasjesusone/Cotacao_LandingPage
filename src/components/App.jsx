@@ -6,7 +6,7 @@ import Main from "./main/Main";
 import Mission from "./mission/Mission";
 import Contact from "./contact/Contact";
 import Footer from "./footer/Footer";
-import { Container } from "./styled";
+import { Container } from "./App";
 
 import { LandingProvider } from "../context/context";
 
