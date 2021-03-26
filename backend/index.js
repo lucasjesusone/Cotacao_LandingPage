@@ -4,8 +4,8 @@ const nodemailer = require("nodemailer");
 const app = express();
 
 
-app.use(bodyParser.json())
-app.use(bodyParser.urlencoded({extended: false}))
+//app.use(bodyParser.json())
+//app.use(bodyParser.urlencoded({extended: false}))
 
 
 app.post('/api/form', (req, res) => {
@@ -29,11 +29,11 @@ app.post('/api/form', (req, res) => {
             }
        })
 
-       let mailOptions = {
+        let mailOptions = {
            from: '',
            to: '',
            replyTo: '',
-           subject: 'New Message',
+           subject: 'Nova Mensagem',
            text: req.body.message,
            html: htmlEmail
        }
@@ -49,7 +49,7 @@ app.post('/api/form', (req, res) => {
     })
 })
 
-const PORT = process.env.PORT || 3001
+const PORT = process.env.PORT || 3001;
 
 app.listen(PORT, () => {
     console.log(`Server Listening on port ${PORT}` )
