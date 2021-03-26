@@ -29,7 +29,7 @@ export const headerData = {
         title: 'COTAR.ME',
         url: '',
         text: 'Realize suas cotações de compras com fornecedores de forma fácil, receba notificações à cada evento que ocorre no processo. Além disso você também pode integrar nossa plataforma com seu sistema ERP',
-        button: 'Entre em Contato'
+        button: 'Entre em Contato conosco'
     }
 
 
