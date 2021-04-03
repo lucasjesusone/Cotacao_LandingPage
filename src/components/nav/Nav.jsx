@@ -31,7 +31,7 @@ const Nav = () => {
   return (
     <>
       <nav className="navbar" id="nav">
-        <Fade left={isDesktop} right={isMobile} duration={1000} delay={500}>
+        <Fade left={isDesktop} right={isMobile} duration={1500} delay={600}>
           <div className="navbar-logo">
             <h1>COTAR.ME</h1>
           </div>
