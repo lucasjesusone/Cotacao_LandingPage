@@ -24,11 +24,11 @@ const Contact = () => {
   return (
     <div id="contact">
       <section>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500}>
+        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={800}>
           <h2>{titleContact || "olá"}</h2>
         </Fade>
 
-        <Fade right={isDesktop} bottom={isMobile} duration={1500} delay={500}>
+        <Fade right={isDesktop} bottom={isMobile} duration={1500} delay={800}>
           <Form />
         </Fade>
       </section>

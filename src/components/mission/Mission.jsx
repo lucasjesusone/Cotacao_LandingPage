@@ -28,7 +28,7 @@ const Mission = () => {
             <h2 className="title">{title || "Something"}</h2>
           </div>
         </Fade>
-        <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={500}>
+        <Fade right={isDesktop} bottom={isMobile} duration={1000} delay={800}>
           <div>
             <p className="paragraph">{paragraph1 || "something"}</p>
             <p className="paragraph">{paragraph2 || "something"}</p>

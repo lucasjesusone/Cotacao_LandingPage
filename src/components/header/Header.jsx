@@ -43,7 +43,7 @@ const Header = () => {
                 right={isDesktop}
                 bottom={isMobile}
                 duration={1800}
-                delay={1000}
+                delay={800}
               >
                 <Link
                   to="contact"

@@ -39,7 +39,7 @@ const Footer = () => {
                   bottom={isDesktop}
                   right={isMobile}
                   duration={1000}
-                  delay={500}
+                  delay={800}
                 >
                   <a
                     className="footericon"
