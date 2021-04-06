@@ -60,6 +60,7 @@ const Nav = () => {
                     <Link
                       to={url}
                       smooth
+                      offset={-100}
                       duration={1000}
                       className="nav-links"
                       onClick={() => setClicked(false)}
@@ -78,7 +79,9 @@ const Nav = () => {
           >
             <Button>Login</Button>
           </a>
+          
         </ul>
+        
       </nav>
     </>
   );
